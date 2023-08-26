@@ -1,0 +1,57 @@
+body{
+    overflow: hidden;
+}
+.word{
+    font-size: 50px;
+    font-weight: 900;
+}
+span{
+    color: orangered;
+}
+#rec{
+    /* display: flex; */
+    /* flex-direction: row; */
+    width: 100%;
+    height: 200px;
+    position: relative;
+  
+}
+
+#reci{
+position: absolute;
+top: 0;
+left: 0;
+border-radius: 7px;
+  width: 350px;
+    height: 300px;
+}
+#recip{
+border-radius: 50%;
+position: absolute;
+top: 0;
+bottom: -200px;
+left: 0;
+right: 0;
+margin: auto;
+width: 350px;
+height: 300px;
+}
+#recipe{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    bottom: -380px;
+    right: 0;
+    border-radius: 7px;
+}
+
+li{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    padding: 0 45px;
+    color: inherit;
+
+}
